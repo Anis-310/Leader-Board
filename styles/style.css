@@ -1,0 +1,151 @@
+
+/* Font Awsome */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* Utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;;
+}
+
+
+/* Top container */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    background-color: #FFFFFF;
+    border-radius: 5px ;
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+    padding-left: 30px;
+    padding-top: 33px;
+}
+.top-players, .courses{
+    width: 870px;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-row-gap: 59px;
+    padding-left: 30px;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.player img{
+    width: 56px;
+    height: 56px;
+    margin-right: 16px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+
+hr{
+    border: 1px solid #D1D1D1;
+    width: 807px;
+    margin-top: 30px;
+}
+
+
+.blog-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.top-blogs{
+    display: flex;
+    
+}
+.top-blogs img{
+    width: 177px;
+    height: 117px;
+}
+
+.blog{
+    display: flex;
+    padding-left: 16px;
+}
+
+.blog a{
+    text-decoration: none;
+}
+span{
+    padding-left: 16px;
+    /* margin-top: 30px; */
+    margin-bottom: 40px;
+    
+}
+
+
+
+/* Courses */
+
+.container{
+    width: 870px;
+    margin-top: 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding-right: 36px;
+
+}
+
+
+.course img{
+    width: 224px;
+    height: 104px;
+
+}
+
+.course a{
+    text-decoration: none;
+    margin-right: 36px;
+}
+
+.course{
+    border: 3px solid rgb(224, 224, 224);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px lightgray;
+    padding: 16px;
+    margin-right: 28px;
+    
+}
+
+.fa-star.filled{
+    color: #FFC014;
+    font-size: 12px;
+}
+.fa-star.empty{
+    color: #d6d6d6;
+    font-size: 12px;
+}
+
+.ratings-area{
+    display: flex;
+    align-items: center;
+
+}
+
+.ratings-area p{
+    color: gray;
+    font-size: 14px;
+    margin-right: 25px;
+}
+
+
+.course-duration{
+    color: #FF4A60;
+    background-color: #FEE5DF;
+    border-radius: 20px;
+    padding: 5px;
+}
